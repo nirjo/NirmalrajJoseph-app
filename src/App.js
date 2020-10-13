@@ -13,7 +13,7 @@ import Contact from './contents/Contact';
 
 const GlobalStyle = createGlobalStyle`
   body{
-    background-color: ${props => props.theme.mode === 'dark' ? '#2c2d30' : '#c4def6'};
+    background-color: ${props => props.theme.mode === 'dark' ? '#2c2d30' : '#4d194b'};
     color: ${props => props.theme.mode === 'dark' ? '#2196f3' : '#000'};
   }
   .condiv{
