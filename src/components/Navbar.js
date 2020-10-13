@@ -28,7 +28,7 @@ class Navbar extends Component {
                 <img src={profilepic} className="profilepic"></img>
                 </div>
             </div>
-            <h2>Nirmalraj Joseph</h2>
+            <h2>Nirmalraj </h2>
             <p>Full Stack Developer</p>
             <ul>
             <Navitem item="Home" tolink="/"  activec={this.activeitem}></Navitem>
